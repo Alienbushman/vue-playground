@@ -16,3 +16,8 @@ https://vuetifyjs.com/en/getting-started/installation/
 ```bash
 npm create vuetify
 ```
+
+## Deploying to gethub
+
+Using this as a base
+https://vitejs.dev/guide/static-deploy.html
