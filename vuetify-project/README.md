@@ -1,4 +1,7 @@
 # This uses the default installation of vuetify
+
+## What it looks like at the moment
+![Basic-site.gif](..%2F..%2F..%2F..%2F..%2FDesktop%2FBasic-site.gif)
 ## How to run
 ```bash
 npm run dev
