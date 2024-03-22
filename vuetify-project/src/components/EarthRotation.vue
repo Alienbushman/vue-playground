@@ -2,7 +2,9 @@
   <div class="container">
     <div class="sun">
       <div class="earth-orbit">
-        <div class="earth"></div>
+        <div class="earth">
+          <div class="moon"></div>
+        </div>
       </div>
     </div>
   </div>
@@ -43,7 +45,23 @@
   top: -10px
   left: calc(50% - 10px)
 
+.moon
+  width: 8px
+  height: 8px
+  border-radius: 50%
+  background-color: #b0bec5
+  position: absolute
+  top: 12px
+  left: calc(50% + 12px)
+  animation: moonOrbit 5s linear infinite
+
 @keyframes orbit
+  from
+    transform: rotate(0deg)
+  to
+    transform: rotate(360deg)
+
+@keyframes moonOrbit
   from
     transform: rotate(0deg)
   to
