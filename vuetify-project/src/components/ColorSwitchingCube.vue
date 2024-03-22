@@ -20,51 +20,44 @@
   flex-direction: column
   justify-content: center
   align-items: center
-  height: 100vh
+  height: 10vh
   text-align: center
 
-h1
-  font-size: 2.5em
-  margin-bottom: 20px
-
-p
-  font-size: 1.2em
-
 .cube
-  width: 100px
-  height: 100px
+  width: 50px
+  height: 50px
   position: relative
   transform-style: preserve-3d
   animation: spin 5s infinite linear
 
 .side
   position: absolute
-  width: 100px
-  height: 100px
+  width: 50px
+  height: 50px
   background-color: rgba(0, 0, 0, 0.2)
 
 .front
-  transform: translateZ(50px)
+  transform: translateZ(25px)
   background-color: #3498db
 
 .back
-  transform: rotateY(180deg) translateZ(50px)
+  transform: rotateY(180deg) translateZ(25px)
   background-color: #e74c3c
 
 .left
-  transform: rotateY(-90deg) translateZ(50px)
+  transform: rotateY(-90deg) translateZ(25px)
   background-color: #2ecc71
 
 .right
-  transform: rotateY(90deg) translateZ(50px)
+  transform: rotateY(90deg) translateZ(25px)
   background-color: #f1c40f
 
 .top
-  transform: rotateX(90deg) translateZ(50px)
+  transform: rotateX(90deg) translateZ(25px)
   background-color: #9b59b6
 
 .bottom
-  transform: rotateX(-90deg) translateZ(50px)
+  transform: rotateX(-90deg) translateZ(25px)
   background-color: #34495e
 
 @keyframes spin

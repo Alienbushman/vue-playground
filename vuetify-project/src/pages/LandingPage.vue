@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import EarthRotation from "../components/EarthRotation.vue";
 </script>
 
 <template>
@@ -7,7 +8,7 @@
     <p>Welcome to our website!</p>
     <color-switching-cube></color-switching-cube>
     <rotating-cube></rotating-cube>
-
+    <earth-rotation></earth-rotation>
   </div>
 
 </template>
