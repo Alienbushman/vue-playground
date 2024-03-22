@@ -9,7 +9,6 @@ declare module 'vue' {
   export interface GlobalComponents {
     AppFooter: typeof import('./components/AppFooter.vue')['default']
     ColorSwitchingCube: typeof import('./components/ColorSwitchingCube.vue')['default']
-    Cube: typeof import('./components/Cube.vue')['default']
     EarthRotation: typeof import('./components/EarthRotation.vue')['default']
     HelloWorld: typeof import('./components/HelloWorld.vue')['default']
     RotatingCube: typeof import('./components/RotatingCube.vue')['default']
