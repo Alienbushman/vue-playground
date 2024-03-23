@@ -13,6 +13,7 @@ import { fileURLToPath, URL } from 'node:url'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/vue-playground/',
   plugins: [
     VueRouter({
       dts: 'src/typed-router.d.ts',
@@ -68,7 +69,7 @@ export default defineConfig({
       '.vue',
     ],
   },
-  server: {
-    port: 3000,
-  },
+  // server: {
+  //   port: 3000,
+  // },
 })
